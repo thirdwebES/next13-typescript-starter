@@ -1,6 +1,7 @@
 "use client";
 
 import type { Metadata } from "next";
+import "../styles/globals.css";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import { Ethereum, Polygon } from "@thirdweb-dev/chains";
 import {
