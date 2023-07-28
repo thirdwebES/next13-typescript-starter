@@ -24,8 +24,8 @@ export default function Home() {
 
           <p className={styles.description}>
             Get started by configuring your desired network in{" "}
-            <code className={styles.code}>src/index.js</code>, then modify the{" "}
-            <code className={styles.code}>src/App.js</code> file!
+            <code className={styles.code}>app/layout.tsx</code>, then modify the{" "}
+            <code className={styles.code}>app/page.tsx</code> file!
           </p>
 
           <div className={styles.connect}>
