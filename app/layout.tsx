@@ -14,12 +14,6 @@ import {
 // Create .env file and Replace with your own client id (From thirdweb API KEY)
 const clientId = process.env.CLIENT_ID;
 
-export const metadata: Metadata = {
-  title: "App router x thirdweb",
-  description:
-    "How to start a web 3 app with thirdweb and the new Next.js App Router",
-};
-
 export default function RootLayout({
   children,
 }: {
